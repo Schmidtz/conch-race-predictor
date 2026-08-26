@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: conch-race-predictor
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    disk:
+      name: conch-race-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1

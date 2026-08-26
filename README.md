@@ -1,6 +1,6 @@
 # Conch Race Predictor V3 — Shared Online Database + Server Monte Carlo
 
-This version turns the V2 prototype into a single web application with a shared server database and server-side prediction API.
+This version is a single web application with a shared server database and server-side prediction API.
 
 ## Architecture
 
